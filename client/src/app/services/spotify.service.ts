@@ -55,7 +55,7 @@ export class SpotifyService {
 
   getArtist(artistId:string):Promise<ArtistData> {
     //TODO: use the artist endpoint to make a request to express.
-      return this.sendRequestToExpress('/artist/' + artistId).then((data) => {
+    return this.sendRequestToExpress('/artist/' + artistId).then((data) => {
       return new ArtistData(data);
     });
   }
@@ -83,11 +83,15 @@ export class SpotifyService {
 
   getTracksForAlbum(albumId:string):Promise<TrackData[]> {
     //TODO: use the tracks for album endpoint to make a request to express.
-    return null as any;
+    return this.sendRequestToExpress('/album-tracks/' + albumId).then((data) => {
+      return data['items'].map((track) => new TrackData(track));
+    });
   }
 
   getTrack(trackId:string):Promise<TrackData> {
     //TODO: use the track endpoint to make a request to express.
-    return null as any;
+    return this.sendRequestToExpress('/track/' + trackId).then((data) => {
+      return new TrackData(data);
+    });
   }
 }
