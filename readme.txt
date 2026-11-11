@@ -1,4 +1,4 @@
---Readme document for Thinh Nguyen, thinhtn3@uci.edu--
+--Readme document for Thinh Nguyen, thinhtn3@uci.edu, 40299042--
 
 1. How many assignment points do you believe you completed (replace the *'s with your numbers)?
 
@@ -23,7 +23,7 @@ https://angular.dev/guide/http/setup
 
 
 4. What classmates or other individuals did you consult as part of this assignment? What did you discuss?
-Individual
+Solo
 
 
 5. Did you add a bonus feature to your submission? If so, what is it and how should we see it?
