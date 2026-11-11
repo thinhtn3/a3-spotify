@@ -23,7 +23,7 @@ https://angular.dev/guide/http/setup
 
 
 4. What classmates or other individuals did you consult as part of this assignment? What did you discuss?
-Solo
+None, did project individually
 
 
 5. Did you add a bonus feature to your submission? If so, what is it and how should we see it?
